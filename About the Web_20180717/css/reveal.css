@@ -47,9 +47,16 @@ body {
   background-color: #fff;
   color: #000; }
 
+.front-caption{
+	background-image: url("wood.jpg");
+}
 
-.reveal .slides .text{
-	text-align: left;
+.caption {
+    background-color: lawngreen;
+}
+
+.reveal .slides .text {
+    text-align: left;
 }
 
 /*********************************************

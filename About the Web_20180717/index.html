@@ -6,7 +6,7 @@
     <title>Webについて</title>
     <link rel="shortcut icon" href="favicon_cup.ico">
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/beige.css">
+    <link rel="stylesheet" href="css/theme/simple.css">
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
     <!-- Printing and PDF exports -->
@@ -21,8 +21,20 @@
     <body>
         <div class="reveal">
             <div class="slides">
+                <section class="front-caption">
+                    <h1>Webについて</h1>
+                </section>
                 <section class="caption">
-                	<h1>1.Webの概要</h1>
+                    <h3>アジェンダ</h3>
+                    <ol class="listStyle">
+                        <li>Webの概要</li>
+                        <li>URI</li>
+                        <li>HTTP</li>
+                        <li>その他（REST, JSON, etc.）</li>
+                    </ol>
+                </section>
+                <section class="caption">
+                    <h2>1.Webの概要</h2>
                     <ul>
                         <li>1-1.Webとはなにか</li>
                         <li>1-2.Webの技術</li>
@@ -31,193 +43,230 @@
                     </ul>
                 </section>
                 <section>
-	                <section class="caption">
-	                	<h2>1-1.Webとはなにか</h2>
-	                </section>
-	                <section class="text">
-	                	<h5>1-1.Webとはなにか</h5><br>
-	                	<p>正式名称：World Wide Web</p><br>
-	                	<p>文字・画像・動画などを、インターネットを介して簡単に扱うことのできるサービスの総称。</p>
-	                	<p>※インターネットそのもののことではない。</p>
-	                </section>
-	                <section class="text">
-	                	<h5>1-1.Webとはなにか</h5><br>
-	                	<p>世界中のWebページを見ることができる。</p>
-	                	<img src="./img/unnamed.jpg">
-	                </section>
+                    <section class="caption">
+                        <h3>1-1.Webとはなにか</h3>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-1.Webとはなにか</span></h5><br>
+                        <p>正式名称：World Wide Web</p><br>
+                        <p>文字・画像・動画などを、インターネットを介して簡単に扱うことのできるサービスの総称。</p>
+                        <p>※インターネットそのもののことではない。</p>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-1.Webとはなにか</span></h5><br>
+                        <p>世界中のWebページを見ることができる。</p>
+                        <img src="./img/unnamed.jpg">
+                    </section>
                 </section>
                 <section>
-	                <section class="caption">
-	                	<h2>1-2.Webを構成する技術</h2>
-	                </section>
-	                <section class="text">
-	                	<h5>1-2.Webを構成する技術</h5><br>
-	                    <ul>
-	                        <li>URI</li>
-	                        <li>HTTP</li>
-	                        <li>HTML</li>
-	                    </ul>
-	                </section>
-	                <section class="text">
-	                	<h5>1-2.Webを構成する技術</h5><br>
-	                	<p>【URI】</p>
-	                	<p>　→Webページの場所（住所）を指定する。</p>
-	                </section>
-	                <section class="text">
-	                	<h5>1-2.Webを構成する技術</h5><br>
-	                	<p>【HTTP】</p>
-	                	<p>　→クライアント～サーバー間の</p>
-	                	<p>　　通信プロトコルの一種。</p>
-	                	<p>　http://sbullet.co.jp/ の「http」は、</p>
-	                	<p>　HTTPを使って通信しますよ、という意味。</p>
-	                </section>
-	                <section class="text">
-	                	<h5>1-2.Webを構成する技術</h5><br>
-	                	<p>【HTML】</p>
-	                	<p>　→Webページを描画（レンダリング）する。</p>
-	                </section>
+                    <section class="caption">
+                        <h3>1-2.Webを構成する技術</h3>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-2.Webを構成する技術</span></h5><br>
+                        <ul>
+                            <li>URI</li>
+                            <li>HTTP</li>
+                            <li>HTML</li>
+                        </ul>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-2.Webを構成する技術</span></h5><br>
+                        <p>【URI】</p>
+                        <p>　→Webページの場所（住所）を指定する。</p>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-2.Webを構成する技術</span></h5><br>
+                        <p>【HTTP】</p>
+                        <p>　→クライアント～サーバー間の</p>
+                        <p>　　通信プロトコルの一種。</p>
+                        <p>　http://sbullet.co.jp/ の「http」は、</p>
+                        <p>　HTTPを使って通信しますよ、という意味。</p>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-2.Webを構成する技術</span></h5><br>
+                        <p>【HTML】</p>
+                        <p>　→Webページを描画（レンダリング）する。</p>
+                    </section>
                 </section>
                 <section class="caption">
- 	                <section class="caption">
-	                	<h2>1-3.Webのシステムとしての特徴</h2>
-	                </section>
-	                <section class="text">
-	                	<h5>1-3.Webのシステムとしての特徴</h5><br>
-	                    <ul>
-	                        <li>ハイパーメディア</li>
-	                        <li>分散システム</li>
-	                    </ul>
-	                </section>
-	                <section class="text">
-	                	<h5>1-3.Webのシステムとしての特徴</h5><br>
-	                	<p>【ハイパーメディア】（Hyper Media）</p>
-	                	<p>　→様々なメディアをハイパーリンクで結び付け</p>
-	                	<p>　　構成されたシステム。</p>
-	                </section>
-	                <section class="text">
-	                	<h5>1-3.Webのシステムとしての特徴</h5><br>
-	                	<p>【分散システム】</p>
-	                	<p>　→複数のコンピュータに処理を分散させ、</p>
-	                	<p>　　全体としての処理能力を上げるシステム。</p>
-	                	<p>　※集中システム</p>
-	                	<p>　　→一つのコンピュータが全てを処理する。</p>
-	                </section>
-	                <section class="text">
-	                	<h5>1-3.Webのシステムとしての特徴</h5><br>
-						<table border="1" width="900" cellspacing="0" cellpadding="5" bordercolor="#333333">
-						<thead>
-							<tr>
-								<th width="300"></th>
-								<th bgcolor="#b0c4de" width="300">分散システム</th>
-								<th bgcolor="#b0c4de" width="300">集中システム</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td bgcolor="#d3d3d3" align="center" nowrap>一台あたり負荷</td>
-								<td align="center">〇</td>
-								<td align="center">×</td>
-							</tr>
-							<tr>
-								<td bgcolor="#d3d3d3" align="center" nowrap>運用管理</td>
-								<td align="center">×</td>
-								<td align="center">〇</td>
-							</tr>
-							<tr>
-								<td bgcolor="#d3d3d3" align="center" nowrap>セキュリティ</td>
-								<td align="center">×</td>
-								<td align="center">〇</td>
-							</tr>
-							<tr>
-								<td bgcolor="#d3d3d3" align="center" nowrap>データ処理量</td>
-								<td align="center">〇</td>
-								<td align="center">×</td>
-							</tr>
-							<tr>
-								<td bgcolor="#d3d3d3" align="center" nowrap>導入コスト</td>
-								<td align="center">〇</td>
-								<td align="center">×</td>
-							</tr>
-							<tr>
-								<td bgcolor="#d3d3d3" align="center" nowrap>拡張性</td>
-								<td align="center">〇</td>
-								<td align="center">×</td>
-							</tr>
-						</tbody>
-						</table>
-	                </section>	                
+                    <section class="caption">
+                        <h3>1-3.Webのシステムとしての特徴</h3>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-3.Webのシステムとしての特徴</span></h5><br>
+                        <ul>
+                            <li>ハイパーメディア</li>
+                            <li>分散システム</li>
+                        </ul>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-3.Webのシステムとしての特徴</span></h5><br>
+                        <p>【ハイパーメディア】（Hyper Media）</p>
+                        <p>　→様々なメディアをハイパーリンクで結び付け</p>
+                        <p>　　構成されたシステム。</p>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-3.Webのシステムとしての特徴</span></h5><br>
+                        <p>【分散システム】</p>
+                        <p>　→複数のコンピュータに処理を分散させ、</p>
+                        <p>　　全体としての処理能力を上げるシステム。</p>
+                        <p>　※集中システム</p>
+                        <p>　　→一つのコンピュータが全てを処理する。</p>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-3.Webのシステムとしての特徴</span></h5><br>
+                        <table border="1" width="900" cellspacing="0" cellpadding="5" bordercolor="#333333">
+                            <thead>
+                                <tr>
+                                    <th width="300"></th>
+                                    <th bgcolor="#b0c4de" width="300">分散システム</th>
+                                    <th bgcolor="#b0c4de" width="300">集中システム</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td bgcolor="#d3d3d3" align="center" nowrap>一台あたり負荷</td>
+                                    <td align="center">〇</td>
+                                    <td align="center">×</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#d3d3d3" align="center" nowrap>運用管理</td>
+                                    <td align="center">×</td>
+                                    <td align="center">〇</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#d3d3d3" align="center" nowrap>セキュリティ</td>
+                                    <td align="center">×</td>
+                                    <td align="center">〇</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#d3d3d3" align="center" nowrap>データ処理量</td>
+                                    <td align="center">〇</td>
+                                    <td align="center">×</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#d3d3d3" align="center" nowrap>導入コスト</td>
+                                    <td align="center">〇</td>
+                                    <td align="center">×</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#d3d3d3" align="center" nowrap>拡張性</td>
+                                    <td align="center">〇</td>
+                                    <td align="center">×</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
                 </section>
                 <section>
-	                <section class="caption">
-	                	<h2>1-4.Web以前の技術と</h2>
-	                	<h2>Webとの違い</h2>
-	                </section>
-	                <section class="text">
-	                	<h5>1-4.Web以前の技術とWebとの違い</h5><br>
-	                	<p>Web以前のシステム</p>
-	                	<p>　→Webほどの普及・広がりを見せなかった。</p>
-	                </section>
-	                <section class="text">
-	                	<h5>1-4.Web以前の技術とWebとの違い</h5><br>
-	                	<p>【Web以前のハイパーメディア】</p>
- 	                    <p>　Memex / Xanadu / HyperCard</p>
-	                	<p>【Web以前の分散システム】</p>
-	                    <p>　RPC / CORBA / DCOM</p>
-	                	<p>　→高機能だが、それ故に複雑な仕様。</p>
-	                	<p>　→均一な性能で限られた数のクライアント</p>
-	                	<p>　　からの利用が前提だった。</p>
-	                </section>
-	                <section class="text">
-	                	<h5>1-4.Web以前の技術とWebとの違い</h5><br>
-	                	<p>【ハイパーメディアとしてのWeb】</p>
-	                	<p>インターネットを使用するハイパーメディアとして設計。</p>
-	                	<p>　→不特定多数の情報をリンクさせ、</p>
-	                	<p>　　システムを大規模化させやすい。</p>
-	                	<p>　→シンプルで実装が簡単な</p>
-	                	<p>　　単方向リンクのみを実現。</p>
-	                </section>
-	                <section class="text">
-	                	<h5>1-4.Web以前の技術とWebとの違い</h5><br>
-	                	<p>【分散システムとしてのWeb】</p>
-	                	<p>クライアント～サーバー間の通信を、</p>
-	                	<p>HTTPというシンプルなプロトコルで固定。</p>
-	                	<p>　→オープンで不特定多数のユーザーの</p>
-	                	<p>　　利用を実現。</p>
-	                </section>
-	                <section class="text">
-	                	<h5>1-4.Web以前の技術とWebとの違い</h5><br>
-	                    <ul>
-	                        <li>インターネットの使用</li>
-	                        <li>機能を絞ったシンプルな技術</li>
-	                    </ul>
-	                	<p>　→上記の要素により、</p>
-	                	<p>　　Webは世界中に普及した。</p>
-	                </section>
+                    <section class="caption">
+                        <h3>1-4.Web以前の技術と</h3>
+                        <h3>Webとの違い</h3>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-4.Web以前の技術とWebとの違い</span></h5><br>
+                        <p>Web以前のシステム</p>
+                        <p>　→Webほどの普及・広がりを見せなかった。</p>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-4.Web以前の技術とWebとの違い</span></h5><br>
+                        <p>【Web以前のハイパーメディア】</p>
+                        <p>　Memex / Xanadu / HyperCard</p>
+                        <p>【Web以前の分散システム】</p>
+                        <p>　RPC / CORBA / DCOM</p>
+                        <p>　→高機能だが、それ故に複雑な仕様。</p>
+                        <p>　→均一な性能で限られた数のクライアント</p>
+                        <p>　　からの利用が前提だった。</p>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-4.Web以前の技術とWebとの違い</span></h5><br>
+                        <p>【ハイパーメディアとしてのWeb】</p>
+                        <p>インターネットを使用するハイパーメディア</p>
+                        <p>として設計。</p>
+                        <p>　→不特定多数の情報をリンクさせ、</p>
+                        <p>　　システムを大規模化させやすい。</p>
+                        <p>　→シンプルで実装が簡単な</p>
+                        <p>　　単方向リンクのみを実現。</p>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-4.Web以前の技術とWebとの違い</span></h5><br>
+                        <p>【分散システムとしてのWeb】</p>
+                        <p>クライアント～サーバー間の通信を、</p>
+                        <p>HTTPというシンプルなプロトコルで固定。</p>
+                        <p>　→オープンで不特定多数のユーザーの利用を実現。</p>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">1-4.Web以前の技術とWebとの違い</span></h5><br>
+                        <ul>
+                            <li>インターネットの使用</li>
+                            <li>機能を絞ったシンプルな技術</li>
+                        </ul>
+                        <p>　→上記の要素により、</p>
+                        <p>　　Webは世界中に普及した。</p>
+                    </section>
                 </section>
                 <section class="caption">
-                	<h1>2.URI</h1>
+                    <h2>2.URI</h2>
                     <ul>
                         <li>2-1.URI / URL / URN</li>
                         <li>2-2.URIの構文</li>
                     </ul>
                 </section>
                 <section>
-	                <section class="caption">
-	                	<h2>2-1.URI / URL / URN</h2>
-	                </section>
-	                <section class="text">
-	                	<h5>2-1.URI / URL / URN</h5><br>
-	                	<p>【URI（Uniform Resource Identifer）】</p>
-	                	<p>　→リソースを一意に識別するID</p>
-	                </section>
-	                <section class="text">
-	                	<h5>2-1.URI / URL / URN</h5><br>
-	                	<p>URL（Uniform Resource Locator）</p>
-	                	<p>　→リソースの場所（住所）を示すもの</p>
-	                	<p>URN（Uniform Resource Name）</p>
-	                	<p>　→リソースの名前（恒久的なID）を示すもの</p><br>
-	                	<p>URLとURNを包括したものがURI。</p>
-	                </section>
+                    <section class="caption">
+                        <h3>2-1.URI / URL / URN</h3>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">2-1.URI / URL / URN</span></h5><br>
+                        <p>【URI（Uniform Resource Identifer）】</p>
+                        <p>　→リソースを一意に識別するID</p>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">2-1.URI / URL / URN</span></h5><br>
+                        <p>URL（Uniform Resource Locator）</p>
+                        <p>　→リソースの場所（住所）を示すもの</p>
+                        <p>URN（Uniform Resource Name）</p>
+                        <p>　→リソースの名前（恒久的なID）を示すもの</p><br>
+                        <p>URLとURNを包括したものがURI。</p>
+                    </section>
+                </section>
+                <section>
+                    <section class="caption">
+                        <h3>2-2.URIの構文</h3>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">2-2.URIの構文</span></h5><br>
+                        <p>例）</p>
+                        <a href="https://paiza.jp/challenges">https://paiza.jp/challenges</a><br />
+                        <a href="https://www.youtube.com">https://www.youtube.com</a><br />
+                        <a href="https://www.youtube.com/results?search_query=lalaland">https://www.youtube.com/results?search_query=lalaland</a>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">2-2.URIの構文</span></h5><br>
+                        <p>https://paiza.jp/challenges</p>
+                        <p>【http, https】：URIスキーム</p>
+                        <p>【paiza.jp】：ホスト名</p>
+                        <p>【challenges】：パス</p><br>
+                    </section>
+                </section>
+                <section>
+                    <section class="caption">
+                        <h3>今回のスライドについて</h3>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">今回のスライドについて</span></h5><br>
+                        <p>reveal.jsを使用</p>
+                        <p>　→HTMLでスライドが作成できるライブラリ。</p><br>
+                        <a href="https://revealjs.com/#/">公式はこちら</a><br>
+                        <a href="https://github.com/hakimel/reveal.js">ダウンロードはこちら（github）</a>
+                    </section>
+                    <section class="text">
+                        <h5><span style="color:lime">今回のスライドについて</span></h5><br>
+                        <p>Github Pagesで公開</p>
+                        <p>　→静的なページを無料で公開できるサービス。</p>
+                        <a href="https://ferret-plus.com/5875">参考にしたサイト</a><br>
+                    </section>
                 </section>
             </div>
         </div>
@@ -233,7 +282,7 @@
                     { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
                 ],
                 slideNumber: true,
-                transition: 'cube',
+                //transition: 'cube',
                 transitionSpeed: 'slow'
             });
         </script>
